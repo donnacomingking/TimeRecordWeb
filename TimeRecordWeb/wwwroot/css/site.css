@@ -1,0 +1,112 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+    background-image: url('../img/site-bg.png');
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: transparent;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+
+.login-box {
+    max-width: 800px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 420px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px -5px #acc2d9;
+}
+
+.login-form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tr-main, .tr-box {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px -5px #acc2d9;
+}
+
+.tr-header, .tr-header2, .tr-title {
+    display: inline-block;
+}
+
+.tr-float-right {
+    float: right;
+}
+
+.invalid-login li {
+    list-style: none;
+}
+
+.tr-filter-input {
+    width: 100%;
+    padding-right: 0 !important;
+}
+
+#timerecord thead tr:nth-of-type(2) th {
+    padding-right: 5px !important;
+}
+#timerecord thead tr:nth-of-type(2) th:after, #timerecord thead tr:nth-of-type(2) th:before {
+    content: none;
+}
